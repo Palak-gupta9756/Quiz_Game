@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    width: 100%;
+    background: linear-gradient(#e66465, #9198e5);
+    height: 150px;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkred;
+}
+
+#instruction {
+    width: 40%;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 470px;
+    margin-top: 20px;
+}
+
+#heading {
+    text-align: center;
+    font-size: 30px;
+    color: darkred;
+    border-bottom: 2px solid black;
+
+}
+
+#rule {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#description {
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 5px;
+    color: blue;
+}
+
+#btn {
+    margin-top: 40px;
+}
+
+#button {
+    margin-left: 45%;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#e66465, #9198e5);
+    color: darkred;
+}
+
+#upper {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#left {
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+#right {
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+#ques-box {
+    margin-top: 40px;
+    margin-left: 180px;
+    width: 70%;
+    height: 500px;
+    border: 2px solid black;
+}
+
+#btn1 {
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+#resetBtn,
+#prevBtn,
+#nextBtn {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#e66465, #9198e5);
+    border-radius: 1%0px;
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: darkred;
+}
+
+#ques {
+    height: 150px;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+#option {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.option-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #e0f7fa;
+    color: #000;
+    border: 2px solid #00bcd4;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    width: 100%;
+}
+
+.option-btn:hover {
+    background-color: #00bcd4;
+    color: white;
+    transform: scale(1.02);
+}
+
+.correct {
+    background-color: #4caf50 !important;
+    color: white !important;
+}
+
+.wrong {
+    background-color: #f44336 !important;
+    color: white !important;
+}
+
+.option-btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.score-box {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+    background-color: #e8f5e9;
+    border: 2px solid #4caf50;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.message-box {
+    width: 90%;
+    color: #f44336;
+    background-color: #4caf50;
+    text-align: center;
+}
